@@ -1,0 +1,95 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Student Registration </title> 
+
+    <!--Favicons--> 
+        <link rel="icon" href="../web-systems-technologies/images/SRL.png"> 
+
+    <style> 
+        body { 
+            background-color: whitesmoke; } 
+        h1 { 
+            font-family: 'Courier New', Courier, monospace; 
+            font-style: italic; font-size: 38px; color: black; } 
+        table { 
+            border-collapse: initial; width: 100%; 
+            font-family: 'Courier New', Courier, monospace; 
+            font-style: italic; font-size: 18px; }
+        td, tr { 
+            border: 1px solid #1f1f1f; text-align: left; padding: 6px; } 
+        input[type="submit"] {
+            background-color: #4CAF50; 
+            border: none; color: white; 
+            padding: 15px 32px; 
+            text-align: center; 
+            text-decoration: none; 
+            display: inline-block; 
+            font-size: 16px; 
+            margin: 4px 2px; 
+            cursor: pointer; 
+            border-radius: 10px; } 
+        input[type="submit"]:hover { 
+            background-color: #4CAF50; } 
+        input[type="text"], 
+        input[type="email"], 
+        select { 
+                width: 100%; padding: 3px; border: 1px solid #ccc; 
+                border-radius: 5px; 
+                box-sizing: border-box; 
+                margin-bottom: 5px; font-size: 16px; }         
+        input[type="date"] { 
+            width: calc(100% - 18px); }    
+    </style> 
+    </head>
+
+
+     <body> 
+        <h1>Student Registration</h1> 
+        
+        <form> <table border="2" style="width: 70%;" align="CENTER"> 
+            <tr> <td><label for="fname">First Name:</label></td> 
+                <td><input type="text" id="fname" name="fname"></td> 
+            </tr> 
+            
+            <tr> <td><label for="lname">Last Name:</label></td> 
+                <td><input type="text" id="lname" name="lname"></td> 
+            </tr> 
+            
+            <tr> <td><label for="email">Email:</label></td> 
+                <td><input type="email" id="email" name="email"></td> 
+            </tr> 
+
+            <tr> <td><label for="gender">Gender:</label></td>
+                 <td><select id="gender" name="gender"> 
+                    <option value="male">Male</option> 
+                    <option value="female">Female</option> 
+                    <option value="other">Other</option> 
+                </select></td> 
+            </tr> 
+            
+            <tr> <td><label for="dob">Date of Birth:</label></td> 
+                <td><input type="date" id="dob" name="dob"></td> 
+            </tr> 
+            
+            <tr> <td><label for="address">Address:</label></td> 
+                <td><input type="text" id="address" name="address"></td> 
+            </tr> 
+            
+            <tr> <td><label for="city">City:</label></td> 
+                <td><input type="text" id="city" name="city"></td> 
+            </tr> 
+            
+            <tr> <td><label for="zip">Zip Code:</label></td> 
+                <td><input type="text" id="zip" name="zip"></td> 
+            </tr> 
+        </table> 
+        
+        <input type="submit" value="Submit"> 
+        </form> 
+
+    </html> 
+    </body> 
+    </html>
