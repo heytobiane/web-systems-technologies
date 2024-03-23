@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <div class="flex h-screen">
+
+        <!-- Sidebar -->
+        <div class="bg-gray-800 text-white w-64 flex flex-col">
+            <h2 class="text-2xl font-semibold p-4">Dashboard</h2>
+            <ul class="flex flex-col">
+                <li><a href="#" class="py-2 px-4 block hover:bg-gray-700">Home</a></li>
+                <li><a href="#" class="py-2 px-4 block hover:bg-gray-700">Analytics</a></li>
+                <li><a href="#" class="py-2 px-4 block hover:bg-gray-700">Reports</a></li>
+                <li><a href="#" class="py-2 px-4 block hover:bg-gray-700">Settings</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 flex flex-col">
+
+            <!-- Header -->
+            <div class="bg-gray-200 text-gray-800 p-4 flex justify-between items-center">
+                <h2 class="text-xl font-semibold">Dashboard</h2>
+                <button onclick="location.href='prelim-login.html'"
+                    class="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded">Logout</button>
+            </div>
+
+            <!-- Info Section -->
+            <div class="p-4">
+                <div>
+                    <h2 class="text-2xl font-semibold">WELCOME, Ronalyn!!</h2>
+                    <p class="mt-2">Welcome to the dashboard. This is where you can display various information and charts.</p>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="bg-gray-800 text-white p-4 mt-auto">
+                <p>&copy; 2024 Dashboard. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
